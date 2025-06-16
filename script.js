@@ -2,7 +2,7 @@ function indexOfIgnoreCase(s1, s2) {
   // write your code here
 	
 	s1Lower = s1.toLowerCase();
-	s2Lower = s2.toLowerCaes();
+	s2Lower = s2.toLowerCase();
 
 	return s1Lower.indexOf(s2Lower);
 
