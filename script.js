@@ -1,5 +1,12 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
+	
+	s1Lower = s1.toLowerCase();
+	s2Lower = s2.toLowerCaes();
+
+	return s1Lower.indexOf(s2Lower);
+
+	
 }
 
 // Please do not change the code below
